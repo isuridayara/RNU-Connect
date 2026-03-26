@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyConnect</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f4f6;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #0a2a66;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar input {
+            padding: 5px;
+            width: 250px;
+        }
+
+        /* Layout */
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+            padding: 10px;
+        }
+
+        .feed {
+            width: 50%;
+            padding: 10px;
+        }
+
+        .rightbar {
+            width: 25%;
+            padding: 10px;
+        }
+
+        /* Cards */
+        .card {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .post-input {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .btn {
+            background: #0a2a66;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div><b>MyConnect</b></div>
+        <input type="text" placeholder="Search...">
+        <div>Profile</div>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="container">
+
+        <!-- Left Sidebar -->
+        <div class="sidebar">
+            <div class="card">
+                <h3>Your Profile</h3>
+                <p>Name: Student</p>
+                <p>University: RTU</p>
+            </div>
+
+            <div class="card">
+                <h3>Connections</h3>
+                <p>+ Add Friends</p>
+            </div>
+        </div>
+
+        <!-- Feed -->
+        <div class="feed">
+            <div class="card">
+                <textarea class="post-input" placeholder="What's on your mind?"></textarea>
+                <button class="btn">Post</button>
+            </div>
+
+            <div class="card">
+                <h4>John Doe</h4>
+                <p>This is a sample post.</p>
+            </div>
+
+            <div class="card">
+                <h4>Anna Smith</h4>
+                <p>Excited about the new semester!</p>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="rightbar">
+            <div class="card">
+                <h3>Events</h3>
+                <p>RTU Meetup</p>
+                <p>Career Fair</p>
+            </div>
+
+            <div class="card">
+                <h3>Suggestions</h3>
+                <p>Connect with Alex</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

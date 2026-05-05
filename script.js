@@ -1,6 +1,6 @@
 // ── SUPABASE CONFIG ─────────────────────────
 // Get these from your Supabase Dashboard: Settings > API
-const supabaseUrl = 'https://ahjagbcxurjotwjvwqjs.supabase.co/rest/v1/';
+const supabaseUrl = 'https://ahjagbcxurjotwjvwqjs.supabase.co';
 const supabaseKey = 'sb_publishable_bTUl5qtU67FdDnmBBMLXfQ_PlhRkFfr';
 const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 

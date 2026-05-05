@@ -1,7 +1,7 @@
 // ── SUPABASE CONFIG ─────────────────────────
 // Get these from your Supabase Dashboard: Settings > API
-const supabaseUrl = 'https://your-project-id.supabase.co';
-const supabaseKey = 'your-anon-public-key';
+const supabaseUrl = 'https://ahjagbcxurjotwjvwqjs.supabase.co/rest/v1/';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFoamFnYmN4dXJqb3R3anZ3cWpzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5MTQyMzksImV4cCI6MjA5MzQ5MDIzOX0.x8W-YSnMB0SThBaH14TGLjOU29kiB2R2HX9Q2rIobXI';
 const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
 // ── STATE ───────────────────────────────────
